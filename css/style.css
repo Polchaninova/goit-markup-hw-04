@@ -95,9 +95,21 @@ header {
 .nav_list .nav_link_menu:focus {
   color: var(--background-color-even);
 }
+/* .nav_list .nav_link_menu:hover::after {
+  display: block;
+  width: 48px;
+  height: 4px;
+
+  background: #2196f3;
+  border-radius: 2px;
+  content: " ";
+  margin-right: 0;
+  margin-top: 32px;
+} */
 .nav_link_menu.current {
   color: var(--color-action);
 }
+
 .header-contact {
   display: flex;
   padding-top: 24px;
