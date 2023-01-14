@@ -144,6 +144,7 @@ img {
 .email-img,
 .email-tel {
   margin-right: 10px;
+  fill: var(--color-text-deck);
 }
 
 .header_list_email {
@@ -349,8 +350,8 @@ img {
 /* 4e */
 .team_list_icon {
   display: flex;
-  margin-top: 30px;
-  margin-left: 32px;
+  margin-top: 16px;
+  justify-content: center;
 }
 .teams_link_icon {
   width: 44px;
@@ -421,10 +422,12 @@ img {
 address {
   margin-top: 20px;
 }
+.footer_address_container {
+  margin-right: 70px;
+}
 .address_list {
   display: block;
   font-style: normal;
-  margin-right: 70px;
 }
 
 .footer_logo_link {
@@ -549,17 +552,17 @@ address {
   border-top: none;
   padding: 20px 24px;
 }
-.server_card:hover .card_border,
+/* .server_card:hover .card_border,
 .server_card:focus .card_border {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+} */
 
-/* .server_item:hover,
+.server_item:hover,
 .server_item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-} */
+}
 .server_menu_title {
   margin-bottom: 4px;
 
